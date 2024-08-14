@@ -1,0 +1,108 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100..700;1,100..700&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+
+* {
+    margin: 0;
+    padding: 0;
+}
+body {
+    height: 100vh;
+    box-sizing: border-box;
+    background-color: #000000;
+    color: #F6F6F6;
+}
+
+.titulo-destaque {
+    color: #caff2b;
+}
+
+.apresentacao {
+    margin: 10% 15%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.apresentacao-conteudo {
+    width: 615px;
+}
+
+.apresentacao__conteudo {
+    width: 615px;
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+}
+    
+.apresentacao__conteudo__titulo {
+    font-size: 36px;
+    font-family: "Josefin Sans", sans-serif;
+}
+    
+.apresentacao__conteudo__texto {
+    font-size: 24px;
+    font-family: "Montserrat", sans-serif;
+}
+
+.teste-links {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    align-items: center;
+    gap: 32px;
+}
+
+.subti {
+    font-family: "Montserrat", sans-serif;
+    font-weight: 400;
+    font-size: 24px;
+}
+
+.apresentacao-liks-link {
+    display: flex;
+    justify-content: center;
+    gap: 16px;
+    background-color: #000000; /* Corrigido para preto */
+    width: 378px;
+    text-align: center;
+    border-radius: 8px;
+    font-size: 24px;
+    font-weight: 600;
+    padding: 21.5px 0;
+    text-decoration: none;
+    color: #f6f6f6;
+    font-family: "Montserrat", sans-serif;
+    border: 2px solid #caff2b;
+}
+
+.apresentacao-links-link:hover { /* Corrigido o erro de sintaxe */
+    background-color: #272727;
+    
+}
+
+/* Estilo da barra de rolagem para WebKit */
+::-webkit-scrollbar {
+    width: 12px; /* Largura da barra de rolagem */
+}
+
+::-webkit-scrollbar-track {
+    background: #1c1c1c; /* Cor de fundo da trilha */
+}
+
+::-webkit-scrollbar-thumb {
+    background: #caff2b; /* Cor do polegar */
+    border-radius: 10px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background: #a0e032; /* Cor do polegar ao passar o mouse */
+}
+
+.header {
+    position: sticky;
+    top: 0;
+    background-color: #1c1c1c;
+    padding: 10px 0;
+    z-index: 1000; /* Garante que a barra de navegação fique acima do conteúdo */
+}
