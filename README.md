@@ -1,2 +1,2 @@
-# Just-a-test
-Teste que deu errado
+# Test
+Just a test
